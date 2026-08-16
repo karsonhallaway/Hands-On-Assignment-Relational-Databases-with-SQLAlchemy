@@ -6,9 +6,9 @@ Practice creating and managing a relational database using Python and SQLAlchemy
 
 ## Instructions
 
-- [ ] Use Python and SQLAlchemy to complete this assignment.
-- [ ] Make sure you have SQLAlchemy installed (`pip install SQLAlchemy`).
-- [ ] Use SQLite for simplicity (`sqlite:///example.db`).
+- [x] Use Python and SQLAlchemy to complete this assignment.
+- [x] Make sure you have SQLAlchemy installed (`pip install SQLAlchemy`).
+- [x] Use SQLite for simplicity (`sqlite:///example.db`).
 - [ ] Submit your Python script (`.py`) with all the steps completed.
 
 ## Part 1: Setup
@@ -33,20 +33,20 @@ session = Session()
 ## Part 2: Define Tables
 
 Create a `User` table with:
-- [ ] `id` (primary key)
-- [ ] `name` (string)
-- [ ] `email` (string, unique)
+- [x] `id` (primary key)
+- [x] `name` (string)
+- [x] `email` (string, unique)
 
 Create a `Product` table with:
-- [ ] `id` (primary key)
-- [ ] `name` (string)
-- [ ] `price` (integer)
+- [x] `id` (primary key)
+- [x] `name` (string)
+- [x] `price` (integer)
 
 Create an `Order` table with:
-- [ ] `id` (primary key)
-- [ ] `user_id` (foreign key referencing `User.id`)
-- [ ] `product_id` (foreign key referencing `Product.id`)
-- [ ] `quantity` (integer)
+- [x] `id` (primary key)
+- [x] `user_id` (foreign key referencing `User.id`)
+- [x] `product_id` (foreign key referencing `Product.id`)
+- [x] `quantity` (integer)
 
 Set up relationships:
 - [ ] A `User` can have many `Order`s
