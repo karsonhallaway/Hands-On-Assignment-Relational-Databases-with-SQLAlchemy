@@ -33,20 +33,20 @@ session = Session()
 ## Part 2: Define Tables
 
 Create a `User` table with:
-- [x] `id` (primary key)
-- [x] `name` (string)
-- [x] `email` (string, unique)
+- [ ] `id` (primary key)
+- [ ] `name` (string)
+- [ ] `email` (string, unique)
 
 Create a `Product` table with:
-- [x] `id` (primary key)
-- [x] `name` (string)
-- [x] `price` (integer)
+- [ ] `id` (primary key)
+- [ ] `name` (string)
+- [ ] `price` (integer)
 
 Create an `Order` table with:
-- [x] `id` (primary key)
-- [x] `user_id` (foreign key referencing `User.id`)
-- [x] `product_id` (foreign key referencing `Product.id`)
-- [x] `quantity` (integer)
+- [ ] `id` (primary key)
+- [ ] `user_id` (foreign key referencing `User.id`)
+- [ ] `product_id` (foreign key referencing `Product.id`)
+- [ ] `quantity` (integer)
 
 Set up relationships:
 - [ ] A `User` can have many `Order`s
