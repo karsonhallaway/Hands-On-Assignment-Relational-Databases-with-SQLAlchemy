@@ -49,8 +49,8 @@ Create an `Order` table with:
 - [x] `quantity` (integer)
 
 Set up relationships:
-- [ ] A `User` can have many `Order`s
-- [ ] A `Product` can appear in many `Order`s
+- [x] A `User` can have many `Order`s
+- [x] A `Product` can appear in many `Order`s
 
 Hint: Use `relationship()` in the tables to define these connections.
 
@@ -60,21 +60,21 @@ Use `Base.metadata.create_all(engine)` to create the tables in the SQLite databa
 
 ## Part 4: Insert Data
 
-- [ ] Add at least 2 users, 3 products, and 4 orders with different quantities.
-- [ ] Use `session.add()` and `session.commit()` to save data.
+- [x] Add at least 2 users, 3 products, and 4 orders with different quantities.
+- [x] Use `session.add()` and `session.commit()` to save data.
 
 ## Part 5: Queries
 
 Write Python code to:
 
-- [ ] Retrieve all users and print their information.
-- [ ] Retrieve all products and print their name and price.
-- [ ] Retrieve all orders, showing the user's name, product name, and quantity.
-- [ ] Update a product's price.
-- [ ] Delete a user by ID.
+- [x] Retrieve all users and print their information.
+- [x] Retrieve all products and print their name and price.
+- [x] Retrieve all orders, showing the user's name, product name, and quantity.
+- [x] Update a product's price.
+- [x] Delete a user by ID.
 
 ## Part 6: Bonus (Optional)
 
-- [ ] Add a `status` column to the `Order` table (Boolean to represent shipped or not).
-- [ ] Query all orders that are not shipped.
-- [ ] Count the total number of orders per user.
+- [x] Add a `status` column to the `Order` table (Boolean to represent shipped or not).
+- [x] Query all orders that are not shipped.
+- [x] Count the total number of orders per user.
