@@ -13,7 +13,7 @@ class Base(DeclarativeBase):
 
 # User Table
 class User(Base):
-    __tablename__ = "users"
+    __tablename__ = 'users'
     
     # columns
     id: Mapped[int] = mapped_column(primary_key=True)
@@ -22,7 +22,7 @@ class User(Base):
     
 # Product Table
 class Product(Base):
-    __tablename__= "products"
+    __tablename__= 'products'
     
     # columns
     id: Mapped[int] = mapped_column(primary_key=True)
@@ -30,6 +30,20 @@ class Product(Base):
     price: Mapped[int] = mapped_column(String(10))
 
 # Order Table
+
+class Order(Base):
+    __tablename__ = "orders"
+    
+    # columns
+    id: Mapped[int] = mapped_column(primary_key=True)
+    user_id: Mapped[int] = relationship(foreign_keys="users.id")
+    product_id: Mapped[int] = relationship(foreign_keys="products.id")
+    quantity: Mapped[int] = mapped_column(default=-0)
+    
+Base.metadata.create_all(engine)
+# session.commit()
+    
+    
 
 
 

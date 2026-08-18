@@ -43,10 +43,10 @@ Create a `Product` table with:
 - [x] `price` (integer)
 
 Create an `Order` table with:
-- [ ] `id` (primary key)
-- [ ] `user_id` (foreign key referencing `User.id`)
-- [ ] `product_id` (foreign key referencing `Product.id`)
-- [ ] `quantity` (integer)
+- [x] `id` (primary key)
+- [x] `user_id` (foreign key referencing `User.id`)
+- [x] `product_id` (foreign key referencing `Product.id`)
+- [x] `quantity` (integer)
 
 Set up relationships:
 - [ ] A `User` can have many `Order`s
