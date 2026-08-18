@@ -33,14 +33,14 @@ session = Session()
 ## Part 2: Define Tables
 
 Create a `User` table with:
-- [ ] `id` (primary key)
-- [ ] `name` (string)
-- [ ] `email` (string, unique)
+- [x] `id` (primary key)
+- [x] `name` (string)
+- [x] `email` (string, unique)
 
 Create a `Product` table with:
-- [ ] `id` (primary key)
-- [ ] `name` (string)
-- [ ] `price` (integer)
+- [x] `id` (primary key)
+- [x] `name` (string)
+- [x] `price` (integer)
 
 Create an `Order` table with:
 - [ ] `id` (primary key)
